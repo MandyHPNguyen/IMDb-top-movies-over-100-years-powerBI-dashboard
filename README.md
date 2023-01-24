@@ -25,7 +25,7 @@ tags: data-science, data-analysis, data-visualization, Power-BI
 
 ## Power BI Dashboard
 <div align="center">
-  <img src="https://github.com/mandyhpnguyen/IMDb-top-movies-over-100-years-powerBI-dashboard/raw/main/images/project/dashboard_overview.gif" alt="Power BI Dashboard by Mandy HP Nguyen">
+  <img src="https://github.com/mandyhpnguyen/IMDb-top-movies-over-100-years-powerBI-dashboard/raw/main/images/project/dashboard_overview_20230124.gif" alt="Power BI Dashboard by Mandy HP Nguyen">
   </img>
   <p>Click the button below to Play with Dashboard</p>
   <a href="https://app.powerbi.com/view?r=eyJrIjoiNzZlMDk0MDAtYmJkNC00OGFhLTk2YWQtNGZmZWI2YmNmMjcwIiwidCI6ImMzMjk5OGJhLWJhZjYtNDBjYS04ZWE0LWM3MzE4OGQzOGQ1OSJ9" rel="nofollow"><img src="https://raw.githubusercontent.com/mandyhpnguyen/mGarage4images/main/shield-badges/Power%20BI-Dashboard-yellow.svg" alt="Mandy HP Nguyen Power BI">
