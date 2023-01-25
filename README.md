@@ -33,6 +33,8 @@ tags: data-science, data-analysis, data-visualization, Power-BI
 </div>
 
 <!--
+# Design
+- Inspired by IMDb 2022's website design
 # Functions
 -
 -
