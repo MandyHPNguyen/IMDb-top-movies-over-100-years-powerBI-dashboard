@@ -42,5 +42,5 @@ tags: data-science, data-analysis, data-visualization, Power-BI
 
 # Development Plan
 - add "Reset" button for filters
-
+- update logo queries page 2
 >
