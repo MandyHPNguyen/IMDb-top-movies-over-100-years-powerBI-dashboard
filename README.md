@@ -57,7 +57,7 @@ This project provides a Power BI dashboard, publicly **published on** my website
 		</li>
 		<li><a href="#contribution">Contribution</a></li>
 		<li><a href="#license">License</a></li>
-		<li><a href="#contacts">Contact</a></li>
+		<li><a href="#contact">Contact</a></li>
 		<li><a href="#acknowledgments"> Acknowledgments</a></li>
 	</ol>
 </details>
