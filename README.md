@@ -21,7 +21,7 @@
 
 <!------- ABSTRACT ------->
 
-This project provides a Power BI dashboard, publicly **published on** my website [mandyhpnguyen.com](https://www.mandyhpnguyen.com/data-visualization/gallery/), **of** the best movies of all time over 100 years (1920-2020) **based on** box offices' gross revenues **grouped by** MPAA ratings **with** multiples ways to filter directly on the webpage and quick lookup definitions (MPAA ratings meaning) **for** data exploratory analysis purpose or simply curiosity reason. The data was published on [Box Office Moji](https://www.boxofficemojo.com/) by IMDb Pro and updated as of March 10, 2022.
+This project provides a Power BI dashboard, publicly **published on** my website [mandyhpnguyen.com](https://www.mandyhpnguyen.com/data-visualization/gallery/), **of** the best movies of all time over 100 years (1920-2020) **based on** box offices' gross revenues **grouped by** MPAA ratings **with** multiples ways to filter directly on the webpage and quickly lookup definitions (MPAA ratings meaning) **for** data exploratory analysis purpose or simply curiosity reason. The data was published on [Box Office Moji](https://www.boxofficemojo.com/) by IMDb Pro and updated as of March 10, 2022.
 
 <div id="pbi-link" align="center">
 	<img src="https://raw.githubusercontent.com/MandyHPNguyen/IMDb-top-movies-over-100-years-powerBI-dashboard/main/images/project/dashboard_overview.gif" alt="Power BI Dashboard by Mandy HP Nguyen">
@@ -52,9 +52,6 @@ This project provides a Power BI dashboard, publicly **published on** my website
 				</li>
 				<li>
 					<a href="#dashboard-and-features">Dashboard and Features</a>
-				</li>
-				<li>
-					<a href="#insights">Insights</a>
 				</li>
 			</ul>
 		</li>
@@ -89,7 +86,7 @@ This project provides a Power BI dashboard, publicly **published on** my website
 | Overall Rank   | Movie rank within all category based on gross revenues within this dataset  | Text      |
 | Year           | Box Office release year                                                     | Text      |                                                    |           |
 
-- Records Summary: Total number of records (movie titles) is 3,600 including:
+- Record Summary: Total number of records (movie titles) is 3,600 including:
 
 | MPPA Rating | Count of Title |
 | ----------- | -------------- |
