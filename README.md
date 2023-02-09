@@ -186,7 +186,7 @@ Mandy HP Nguyen
 [***Email***: *MandyHPNguyen@gmail.com*](mailto:MandyHPNguyen@gmail.com) - [***LinkedIn***: *@MandyHPNguyen*](https://www.linkedin.com/in/mandyhpnguyen/) - [***Medium***: *@MandyHPNguyen*](https://medium.com/mandyhpnguyen)
 
 Project Links
-[***GitHub Repository***](https://github.com/MandyHPNguyen/IMDb-top-movies-over-100-years-powerBI-dashboard) - [***Power BI Dashboard***](https://app.powerbi.com/view?r=eyJrIjoiNzZlMDk0MDAtYmJkNC00OGFhLTk2YWQtNGZmZWI2YmNmMjcwIiwidCI6ImMzMjk5OGJhLWJhZjYtNDBjYS04ZWE0LWM3MzE4OGQzOGQ1OSJ9")
+[***GitHub Repository***](https://github.com/MandyHPNguyen/IMDb-top-movies-over-100-years-powerBI-dashboard) - [***Power BI Dashboard***](https://app.powerbi.com/view?r=eyJrIjoiNzZlMDk0MDAtYmJkNC00OGFhLTk2YWQtNGZmZWI2YmNmMjcwIiwidCI6ImMzMjk5OGJhLWJhZjYtNDBjYS04ZWE0LWM3MzE4OGQzOGQ1OSJ9)
 
 <!--[Medium's Blog]()-->
 
