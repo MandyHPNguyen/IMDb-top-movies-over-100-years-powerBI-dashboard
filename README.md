@@ -1,3 +1,20 @@
+---
+dg-home: false
+dg-publish: true
+dg-enable-search: true
+dg-show-local-graph: true
+dg-permalink: "Data-Visualization/IMDb-Dashboard"
+title: "IMDb Power BI Dashboard"
+author: "Mandy HP Nguyen"
+dg-meta-tags:
+ description: "IMDb Analysis Power BI Dashboard"
+ "og:image": "https://github.com/MandyHPNguyen/mGarage4images/blob/0e6fea710ef342f0f02f175401fd46154f01fb66/country-flag_icons/vn.png"
+tags:
+---
+<< [[0000 Home|🏡 Home Page]] || [[0101 Resume|👩‍🔬 Résumé]] || [[1100 Visualizations|📊 Data Visualization]] >>
+
+
+
 <!-------- BADGES ------->
 
 <div id="badges" align="center">
@@ -21,12 +38,12 @@
 
 <!------- ABSTRACT ------->
 
-This project provides a Power BI dashboard, publicly **published on** my website [mandyhpnguyen.com](https://www.mandyhpnguyen.com/data-visualization/gallery/), **of** the best movies of all time over 100 years (1920-2020) **based on** box offices' gross revenues **grouped by** MPAA ratings **with** multiples ways to filter directly on the webpage and quickly lookup definitions (MPAA ratings meaning) **for** data exploratory analysis purpose or simply curiosity reason. The data was published on [Box Office Moji](https://www.boxofficemojo.com/) by IMDb Pro and updated as of March 10, 2022.
+This project provides a Power BI dashboard, publicly **published on** my website [mandyhpnguyen.com](https://www.mandyhpnguyen.com/Data-Visualization/IMDb-Dashboard/), **of** the best movies of all time over 100 years (1920-2020) **based on** box offices' gross revenues **grouped by** MPAA ratings **with** multiples ways to filter directly on the webpage and quick definition (MPAA ratings meaning) lookup **for** data exploratory analysis purpose or simply curiosity reason. The data was published on [Box Office Moji](https://www.boxofficemojo.com/) by IMDb Pro and updated as of March 10, 2022.
 
 <div id="pbi-link" align="center">
 	<img src="https://raw.githubusercontent.com/MandyHPNguyen/IMDb-top-movies-over-100-years-powerBI-dashboard/main/images/project/dashboard_overview.gif" alt="Power BI Dashboard by Mandy HP Nguyen">
 	<a href="https://app.powerbi.com/view?r=eyJrIjoiNzZlMDk0MDAtYmJkNC00OGFhLTk2YWQtNGZmZWI2YmNmMjcwIiwidCI6ImMzMjk5OGJhLWJhZjYtNDBjYS04ZWE0LWM3MzE4OGQzOGQ1OSJ9" target="_blank" rel="noopener noreferrer">
-		<p><i>👉👉 Click the button below to Play with Dashboard 👈👈</i></p>
+		<p><i>Click the button below to Play with Dashboard</i></p>
 		<img src="https://raw.githubusercontent.com/mandyhpnguyen/mGarage4images/main/shield-badges/Power%20BI-Dashboard-yellow.svg" alt="Mandy HP Nguyen Power BI">
 	</a>
 </div>
@@ -53,11 +70,14 @@ This project provides a Power BI dashboard, publicly **published on** my website
 				<li>
 					<a href="#dashboard-and-features">Dashboard and Features</a>
 				</li>
+				<li>
+					<a href="#insights">Insights</a>
+				</li>
 			</ul>
 		</li>
 		<li><a href="#contribution">Contribution</a></li>
 		<li><a href="#license">License</a></li>
-		<li><a href="#contact">Contact</a></li>
+		<li><a href="#contacts">Contact</a></li>
 		<li><a href="#acknowledgments"> Acknowledgments</a></li>
 	</ol>
 </details>
@@ -66,75 +86,12 @@ This project provides a Power BI dashboard, publicly **published on** my website
 ## About the Project
 
 ### Data
-3 sets of data including texts and images were manually collected and updated as of March 2, 2022.
-- [GitHub Folder of Text Data](https://github.com/MandyHPNguyen/IMDb-top-movies-over-100-years-powerBI-dashboard/tree/31c385fc2e049bf6fc5ec976b67c94608ef52b9e/masterData)
-- [GitHub Folder of Image Data](https://github.com/MandyHPNguyen/IMDb-top-movies-over-100-years-powerBI-dashboard/tree/31c385fc2e049bf6fc5ec976b67c94608ef52b9e/images)
+
 #### Movie Ranking
-- The set is publicly provided by [Box Office Mojo](https://www.boxofficemojo.com/) (IMDb)
-- The specific category chosen is [**All Time** sub-categorized by MPAA ratings](https://www.boxofficemojo.com/charts/overall/?ref_=bo_nb_rs_tab)
-##### Collecting Process
-- The data was hand-selected by my data entry and cleaning, stored in [this file](https://github.com/MandyHPNguyen/IMDb-top-movies-over-100-years-powerBI-dashboard/blob/31c385fc2e049bf6fc5ec976b67c94608ef52b9e/masterData/IMDb_Top_Movies_by_MPPA_20220302.xlsx) , each MPAA rating per spreadsheet.
-- Then, the spreadsheets were concatenated into [one file](https://github.com/MandyHPNguyen/IMDb-top-movies-over-100-years-powerBI-dashboard/blob/31c385fc2e049bf6fc5ec976b67c94608ef52b9e/masterData/MPPA-Rating_Definition_Pivot_20220302.xlsx) for data input into Power BI file (.pbix).
-- The data structure of this set is as follows:
-
-| Attribute      | Definition                                                                  | Data Type |
-| -------------- | --------------------------------------------------------------------------- | --------- |
-| Title          | Name of Movies                                                              | Text      |
-| MPAA Rating    | Types of Movies rating based on MPAA                                        | Text      |
-| Lifetime Gross | Gross Revenue of all time                                                   | Integer   |
-| MPAA Rank      | Movie rank within each category based on gross revenues within this dataset | Text      |
-| Overall Rank   | Movie rank within all category based on gross revenues within this dataset  | Text      |
-| Year           | Box Office release year                                                     | Text      |                                                    |           |
-
-- Record Summary: Total number of records (movie titles) is 3,600 including:
-
-| MPPA Rating | Count of Title |
-| ----------- | -------------- |
-| G           | 558            |
-| NC-17       | 42             |
-| PG          | 1,000          |
-| PG-13       | 1,000          |
-| R           | 1,000          |
-| Total       | 3,600          |
 
 #### MPAA Definitions
-The definitions of 5 movie rating categories defined by MPAA were referenced from [Wikipedia](https://en.wikipedia.org/wiki/Motion_Picture_Association_film_rating_system) as follows:
 
-- G – General Audiences - "Nothing that would offend parents for viewing by children."  On the box: "All ages admitted"
-
-<a align="left"><img height="100" src="https://github.com/mandyhpnguyen/IMDb-top-movies-over-100-years-powerBI-dashboard/blob/main/images/movie_logos/MPA_G_RATING_(block)-White.png?raw=true"></a>
-
-- PG – Parental Guidance Suggested - "Parents urged to give 'parental guidance.' May contain some material parents might not like for their young children."  
-On the box: "Some material may not be suitable for children"
-
-<a align="left"><img height="100"  src="https://github.com/mandyhpnguyen/IMDb-top-movies-over-100-years-powerBI-dashboard/blob/main/images/movie_logos/MPA_PG_RATING_(block) White.png?raw=true)"></a>
-
-- PG-13 – Parents Strongly Cautioned - "Parents are urged to be cautious. Some material may be inappropriate for pre-teenagers."  
-On the box: "Some material may be inappropriate for children under 13"
-
-<a align="left"><img height="100"  src="https://github.com/mandyhpnguyen/IMDb-top-movies-over-100-years-powerBI-dashboard/blob/main/images/movie_logos/MPA_PG-13_RATING_(block) - White.png?raw=true"></a>
-
-- R – Restricted - "Contains some adult material. Parents are urged to learn more about the film before taking their young children with them."  
-On the box: "Under 17 requires accompanying parent or adult guardian"
-
-<a align="left"><img height="100" src="https://github.com/mandyhpnguyen/IMDb-top-movies-over-100-years-powerBI-dashboard/blob/main/images/movie_logos/MPA_R_RATING_(block) - White.png?raw=true"></a>
-
-- NC-17 – Adults Only - "Clearly adult. Children are not admitted." On the box: "No One 17 and Under Admitted"
-
-<a align="left"><img height="100" src="https://github.com/mandyhpnguyen/IMDb-top-movies-over-100-years-powerBI-dashboard/blob/main/images/movie_logos/MPA_NC-17_RATING_(block)-White.png?raw=true"></a>
-
-#### Images
-##### MPAA Logos
-- [Wikipedia](https://en.wikipedia.org/wiki/Motion_Picture_Association_film_rating_system)
-- [GitHub Folder](https://github.com/MandyHPNguyen/IMDb-top-movies-over-100-years-powerBI-dashboard/tree/31c385fc2e049bf6fc5ec976b67c94608ef52b9e/images/movie_logos)
-##### IMDb Logos
-- [Official IMDb Brand Guideline](https://en.wikipedia.org/wiki/Motion_Picture_Association_film_rating_system)
-- [GitHub Folder](https://github.com/MandyHPNguyen/IMDb-top-movies-over-100-years-powerBI-dashboard/tree/31c385fc2e049bf6fc5ec976b67c94608ef52b9e/images/imdb_logos)
-
-##### Taskbar Menu Icons
-- [flaticon](https://www.flaticon.com/)
-- [GitHub Folder](https://github.com/MandyHPNguyen/IMDb-top-movies-over-100-years-powerBI-dashboard/tree/31c385fc2e049bf6fc5ec976b67c94608ef52b9e/images/menu_icons)
-
+#### MPAA Logos
 
 ### Methodology
 - web-scraping
@@ -153,10 +110,14 @@ On the box: "Under 17 requires accompanying parent or adult guardian"
 
 ### Dashboard and Features
 The dashboard comprises of 4 pages including Home, Overview, and References with the following features and developing plan as follows:
-#### Home
-#### Overview
-#### Rating
-#### References
+1. **Home**: currently a title page for introduction
+- [ ] click on MPAA logo to quickly go to the `Overview` page filtered by MPAA ratings of the chosen log
+3. **Overview**:
+4. **Rating**:
+5. **References**:
+
+### Insights
+**Lorem Ipsum** is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 <p align="right"><a href="#readme-top">🔝back to top</a></p>
 
