@@ -1,20 +1,3 @@
----
-dg-home: false
-dg-publish: true
-dg-enable-search: true
-dg-show-local-graph: true
-dg-permalink: "Data-Visualization/IMDb-Dashboard"
-title: "IMDb Power BI Dashboard"
-author: "Mandy HP Nguyen"
-dg-meta-tags:
- description: "IMDb Analysis Power BI Dashboard"
- "og:image": "https://github.com/MandyHPNguyen/mGarage4images/blob/0e6fea710ef342f0f02f175401fd46154f01fb66/country-flag_icons/vn.png"
-tags:
----
-<< [[0000 Home|🏡 Home Page]] || [[0101 Resume|👩‍🔬 Résumé]] || [[1100 Visualizations|📊 Data Visualization]] >>
-
-
-
 <!-------- BADGES ------->
 
 <div id="badges" align="center">
